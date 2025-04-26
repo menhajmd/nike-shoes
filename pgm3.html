@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .dd {
+            /* background-color: blanchedalmond; */
+            padding: 10px;
+            border-radius: 6%;
+
+        }
+
+        .container {
+            width: 100dvw;
+            height: 100dvh;
+            background:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center {
+            width: 60%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .search-bar {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            background-color: rgb(205, 11, 11);
+            border-radius: 30px;
+            padding: 10px 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .text {
+            color: rgb(83, 17, 189);
+        }
+
+        .search-bar i {
+            margin-top: 50%;
+            color: gray;
+            font-size: 18px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        .fav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .fav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .d {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .fav img {
+            width: 60px;
+            height: 60px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .fav p {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .dd:hover {
+            background-color: rgba(227, 224, 224, 0.822);
+        }
+
+        .dd {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            border-radius: 6%;
+        }
+
+        .tul {
+            width: 540px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center">
+
+            <img src="google.png" alt="" class="logo" />
+            <div class="search-bar align-items" style="margin-top: 5%;">
+                <form action="https://www.google.com/search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input class="tul" "text" name="q" placeholder="Search Google or type a URL" />
+
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-camera"></i>
+
+                </form>
+            </div>
+
+            <div class="fav d ">
+                
+                <div class="dd">
+                    <img src="instagram.jpg" width="50px" alt="" />
+                    <p class="text" style="color: rgb(19, 2, 2);">Instagram</p>
+                </div>
+                <div class="dd ">
+                    <img src="facebook.png" width="50px" alt="" />
+                    <p class="text" style="color: rgb(17, 2, 2);">facebook</p>
+                </div>
+
+                <div class="dd">
+                    <img src="youtube.jpg" width="50px" alt="" />
+                    <p class="text" style="color: rgb(17, 2, 2);">Youtube</p>
+                </div>
+                <div class="dd ">
+                    <img src="whatsapp.png" width="50px" alt="" />
+                    <p class="text" style="color: rgb(11, 1, 1);">Whatsapp</p>
+                </div>
+                <div class="dd">
+                    <img src="gmail.webp" width="50px" alt="" />
+                    <p class="text" style="color: rgb(22, 2, 2);">Gmail</p>
+                </div>
+</body>
+</html>
